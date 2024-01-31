@@ -4,8 +4,10 @@
     {
         static void Main(string[] args)
         {
-            var gm = new GameManager();
-            gm.StartGame();
+            // var gm = new GameManager();
+            // gm.StartGame();
+            var game = new GameController();
+            game.GameStart();
         }
     }
 }
